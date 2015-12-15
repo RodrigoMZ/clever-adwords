@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.15'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.2.2'
 gem 'jquery-rails'
 
 # Using sqlite by default.
@@ -11,3 +12,5 @@ gem 'google-adwords-api', '~> 0.18.0'
 
 # Gem for OAuth authorization.
 gem 'oauth2'
+
+gem 'activerecord-session_store'
