@@ -4,9 +4,6 @@ How do I get started?
 
 1. Make sure you have Ruby 1.9.2 or later installed:
 
-    $ ruby -v
-    ruby 1.9.2p0 (2010-08-18 revision 29036) [x86_64-linux]
-
 2. Download the application from GitHub
 
 3. Install all required dependencies:
@@ -14,6 +11,7 @@ How do I get started?
     $ bundle install
 
 6. Initialize default local SQLite schema:
+
     $ rails generate active_record:session_migration
     $ rake db:migrate
 
